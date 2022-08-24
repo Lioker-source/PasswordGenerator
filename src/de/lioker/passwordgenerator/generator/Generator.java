@@ -4,10 +4,10 @@ import java.util.Random;
 
 public class Generator {
 
-    public static final String upperCaseLetters = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    public static final String lowerCaseLetters = "abcdefghijklmnopqrstuvwxyz";
-    public static final String numbers = "0123456789";
-    public static final String specialCharacters = "!§$%&/(~)=?`´*\\+#'-\"_.:,;<>|^°";
+    public static final String upperCaseLetters = "AABBCCDDEEFFGGHHIIJJKKLLMMNNOOPPQQRRSSTTUUVVWWXXYYZZ";
+    public static final String lowerCaseLetters = "aabbccddeeffgghhiijjkkllmmnnooppqqrrssttuuvvwwxxyyzz";
+    public static final String numbers = "00112233445566778899";
+    public static final String specialCharacters = "!§$%&/(~)=?`´*\\+#'-\"_.:,;<>|^°!§$%&/(~)=?`´*\\+#'-\"_.:,;<>|^°";
 
 
     public String generatePassword(int length) {
